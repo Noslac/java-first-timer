@@ -14,7 +14,7 @@ public class Motorcycle
 
     String make;
     String color;
-    Boolean engineState;
+    Boolean engineState=false;//always initialize
     void startEngine()
     {
         if(engineState == true)
@@ -27,7 +27,7 @@ public class Motorcycle
     }
     void showAtts() 
     {
-        System.out.println("This motorcycle is a "+ color + " " + make);
+        System.out.println("This motorcycle is a "+ color + "" + make);
         if (engineState == true)
             System.out.println("The engine is on.");
         else 
