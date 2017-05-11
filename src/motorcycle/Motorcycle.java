@@ -35,16 +35,18 @@ public class Motorcycle
     }
     public static void main(String args[])
     {
-       /* Motorcycle m= new Motorcycle();
+        Motorcycle m= new Motorcycle();
         m.make = "Yamaha RZ350";
         m.color = "yellow";
         System.out.println("Calling showAtts...");
-        m.showAtts();*/
+        m.showAtts();
         Motorcycle n= new Motorcycle();
         n.make="Toyota";
         n.color="red";
         System.out.println("Calling showAtts...");
         n.showAtts();
+        m.startEngine();
+        m.startEngine();
     }
     
 }
